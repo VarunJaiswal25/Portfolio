@@ -1,0 +1,712 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+head,body{
+    margin: 0px;
+    padding: 0px;
+    background-color:rgb(68 73 148);
+    color: white;
+    font-family: "Poppins", sans-serif;   
+}
+
+
+.navbar{
+    height: 60px;
+    width: 100%;
+    position:fixed;
+    top: 0;
+    text-decoration: none;   
+    display: flex;
+    justify-content: space-around;
+    align-items: first baseline;
+    background: rgb(68 73 148);
+    overflow: hidden;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+
+.icon{
+    margin: 8px;
+    padding: 4px;
+    height: 10px;
+    width: 100lvw;
+    font-size: 18px;
+    align-items: center;
+    color: white;
+    font-style: inherit;
+    text-decoration: none;
+    position: relative;
+    left: 100px;
+    
+}
+.menu ul{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+    padding: 4px;
+    margin: 4px;
+    height: 10px;
+    width: 50lvw;
+    font-size: 13px;
+    color: white;
+    font-style: inherit;
+    text-decoration: none;
+}
+
+ul li a:hover{
+
+    height: 20px;
+    width: 30px;
+    border-radius: 4px;
+    padding: 10px;
+    color:rgb(68 73 148);
+    background-color: white;
+    border-radius: 20px;
+    
+}
+
+ul li{
+    height: 20px;
+    width: 30px;
+    padding: 0px 10px 0px 0px;
+    align-items: first baseline;
+}
+
+ul li a::after{
+    padding: 10px;
+    margin: 10px;
+    color:rgb(68 73 148);
+    background-color: white;
+}
+.homepage{
+    height: 600px;
+    width: 100lvw;
+    display: flex;
+
+    
+}
+
+.leftsection{
+    height:  600px;
+    width: 600px;
+    position: relative;
+    left: 40px;
+}
+
+.leftsection h1{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 140px;
+    left: 70px;
+}
+.leftsection p{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    top: 120px;
+    left: 70px;
+}
+
+.buttonsection{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    width: 350px;
+    top: 120px;
+    left: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button{
+    height: 40px;
+    width: 150px;
+    color: rgb(68 73 148);
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    font-size: small;
+    border: 1px none;
+
+}
+
+button:hover{
+    scale: 101%;
+    background: rgb(194, 197, 228);
+    color: rgb(14, 14, 94);
+}
+
+.rightsection{
+    height: 250px;
+    width: 250px;
+    position: relative;
+    top: 250px;
+    left: 200px;
+    color: white;   
+    scale: 150%;
+    border-radius: 40px;
+}
+
+.circledesign1{
+    height: 70px;
+    width: 70px;
+    background: rgb(255,255,255);
+    background: linear-gradient(300deg, rgba(255,255,255,1) 0%, rgba(68,73,148,1) 97%); 
+    border-radius: 50%;
+ 
+}
+
+
+.circledesign2{
+    height: 160px;
+    width: 160px;
+    background: rgb(255,255,255);
+    background-image: linear-gradient(52deg, rgba(255,255,255,1) 0%,rgb(68 73 148) 97%); 
+    border-radius: 50%;
+    position: relative;
+    left: 85px;
+    top: -120px;
+ 
+}
+
+.circledesign3{
+    height: 100px;
+    width: 100px;
+    background: rgb(255,255,255);
+    background-image: linear-gradient(270deg, rgba(255,255,255,1) 0%, rgb(89, 93, 154) 97%); 
+    border-radius: 50%;
+    position: relative;
+    left: 10px;
+    top: -150px;
+
+}
+
+.circledesign4{
+    height: 60px;
+    width: 60px;
+    background: rgb(255,255,255);
+    background-image: linear-gradient(45deg, rgba(255,255,255,1) 0%, rgba(68,73,148,1) 97%); 
+    border-radius: 50%;
+    position: relative;
+    left: 130px;
+    top: -200px;
+
+}
+
+.circledesign1:hover{
+    scale: 110%;
+}
+.circledesign2:hover{
+    scale: 110%;
+}
+.circledesign3:hover{
+    scale: 110%;
+}
+.circledesign4:hover{
+    scale: 110%;
+}
+.lefticondiv1 span{
+    position: relative;
+    left: 50px;
+    rotate: -30deg;
+    scale: 200%;
+}
+
+.lefticondiv2 span{
+    position: relative;
+    left: 90px;
+    rotate: -60deg;
+    scale: 200%;
+}
+
+.lefticondiv3 span{
+    position: relative;
+    left: 150px;
+    rotate: -30deg;
+    scale: 200%;
+}
+
+
+.icondiv{
+    height: 40px;
+    width: 200px;
+    position: relative;
+    top: 120px;
+    left: 160px;
+    justify-content: space-around;
+    scale: 200%;
+    padding: 10px;
+}
+
+.icondiv a i{
+    margin:10px;
+    justify-content: space-evenly;
+}
+
+.icondiv a i:hover{
+    scale: 110%;
+}
+
+
+
+#services{
+    height: 600px;
+    width: 100lvw;
+    
+}
+
+.title{
+   position: relative;
+   padding: 0px 50px 10px  90px;
+   margin: 10px;
+}
+
+.row{
+    position: relative;
+    padding: 0px 50px 0px  50px;
+    margin: 10px;
+}
+
+.container1{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container2{
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.elem{
+    height: 170px;
+    width: 300px;
+    padding-bottom: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 255, 255);  background: rgb(255,255,255);
+    background-image: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgb(130, 134, 200) 97%);
+    align-items: center;
+    color: rgb(68 73 148);
+    border-radius: 40px;
+}
+
+
+.elem span,h4,p{
+    padding: 2px;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    justify-content: center;
+    
+}
+.elem p{
+    font-size: small;
+}
+
+.elem:hover{
+    scale: 105%;
+    background-color:rgb(211, 212, 233);
+    opacity: 2px;
+    color: rgb(14, 14, 94);
+}
+
+#projects{
+    height: 600px;
+    width: 100lvw;
+    
+}
+
+.cards{
+    height: 400px;
+    width: 90lvw;
+    position: relative;
+    top: 20px;
+    left: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: first baseline;
+
+}
+
+.card1 ,.card2{
+    height: 400px;
+    width: 350px;
+    background-image: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgb(130, 134, 200) 97%);
+    border-radius: 40px;
+    color:  rgb(68 73 148);
+
+}
+
+
+.card1 h3,.card2 h3{
+    position: relative;
+    top: 20px;
+    left: 15px;
+
+}
+
+.tech{
+    height: 20%;
+    width: 90%;
+    /* background-color: aliceblue; */
+    position: relative;
+    top: 12%;
+    left: 15px;
+    border-radius: 10px;
+
+}
+
+.tech p{
+    font-size: 12px;
+}
+
+.card1 img,.card2 img{
+    height: 40%;
+    width: 90%;
+    position: relative;
+    top: 10%;
+    left: 15px;
+    border-radius: 10px;
+}
+
+.card1 button,.card2 button{
+    width: 90%;
+    position: relative;
+    top: 15%;
+    left: 17px;
+}
+
+button:hover{
+    border: 1px solid white;
+
+}
+
+#about{
+    height: 600px;
+    width: 100lvw;
+    
+}
+
+.icon-img-pkt{
+    height: 400px;
+    width: 500px;
+    
+}
+
+.imgdiv{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    padding: 4px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgb(130, 134, 200) 97%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 60px;
+    left: 120px;
+}
+.imgdiv img{    
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+.information{
+    height: 400px;
+    width: 700px;
+    /* background-color: rgb(11, 12, 14); */
+    position: relative;
+    top: -250px;
+    left: 350px;
+}
+
+.textarea{
+    margin: 10px;
+    padding: 10px;
+    position: relative;
+    top: 60px;
+    left: 10px;
+}
+
+.textarea h2{
+    position: relative;
+    left: 135px;
+    scale: 130%;
+}
+
+.textarea p{
+    font-size: medium;
+}
+
+.skills{
+    height: 100px;
+    width: 1000px;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    left: 100px;
+    bottom: 70px;
+}
+.skillset{
+    height: 100px;
+    width: 100px;
+    background: linear-gradient(135deg, rgba(255,255,255,1) 0%, rgb(130, 134, 200) 97%);
+    border-radius: 50%;
+}
+
+.skillset div i{
+   scale: 250%;
+   position: relative;
+   justify-content: center;
+   align-items: center;
+   top: 35px;
+   left:33px;
+   color:  rgb(68 73 148);
+}
+
+
+#contact{
+    height: 600px;
+    width: 100lvw;
+    display: flex;
+    justify-content: space-between;
+   
+}
+
+.contactform{
+    height: 400px;
+    width: 40lvw;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+.contactform h3{
+    padding-bottom: 20px;
+}
+
+.contactlinks{
+    height: 400px;
+    width: 40lvw;
+    position: relative;
+    top: 100px;
+    right: 100px;
+}
+
+.contactlinks h3{
+    padding-bottom: 10px;
+    position: relative;
+    left: 40px;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+input,textarea{
+    width: 80%;
+    height: 40px;
+    padding: 12px;
+    border-radius: 40px;
+    border: none;
+    background-color: white;
+    color: black;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+    box-shadow: 0px 0px 8px black;
+}
+
+.buttonsection2{
+    padding: 10px;
+    margin: 10px;
+    position: relative;
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+.contactlinks p,i{
+    padding: 3px 5px;
+    margin: 3px 5px;
+}
+
+.h-3{
+    position: relative;
+    top: 20px;
+    padding-bottom: 10px;
+}
+.icondiv3{
+    width: 180px;
+    scale: 200%;
+    padding: 10px 0px;
+    margin: 10px 0px;
+    position: relative;
+    top: 20px;
+    left: 110px;
+}
+
+.icondiv3 a,i:hover{
+    scale: 110%;
+    
+}
+
+footer {
+    height: 60px;
+    width: 50lvw;
+}
+
+footer div{
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    top: 10px;
+    left: 450px;
+}
+
+@media screen and (max-width: 600px) {
+    head,body{
+        /* background-color: aquamarine; */
+    }
+
+    
+
+    .homepage{
+        flex-direction: column;
+        height: 1000px;
+    }
+
+    .homepage .rightsection{
+        position: relative;
+        top: -0px;
+        left: 80px;
+    }
+    #services{
+        height: 700px;
+        width: 400px;
+    }
+
+    #services .container1, .container2{
+        flex-direction: column;
+        height: 450px;
+
+    }
+
+    #projects{
+        height: 700px;
+        position: relative;
+        top: 400px;
+    }
+
+    #projects .cards{
+        flex-direction: column;
+        height: 800px;
+    }
+
+    .card1,.card2{
+        padding: 50px;
+        margin: 10px;
+    }
+
+    #about{
+        flex-direction: column;
+        height: 1000px; 
+        width: 800px;
+        position: relative;
+        top: 700px;
+    }
+
+    #about .title{
+        flex-direction: column;
+    }
+
+    #about .icon-img-pkt{
+        position: relative;
+        right: 110px;
+    }
+
+    #about .information{
+        height: 700px;
+        width: 400px;
+        position: relative;
+        left: 20px;
+        top: 40px;
+    }
+    #about .information h2{
+        position: relative;
+        left: 60px;
+    }
+
+    #about .skills{
+        flex-direction: column;
+        height: 1000px;
+        width: 100px;
+        scale: 70%;
+        position: relative;
+        left:450px;
+        bottom: 550px;
+    }
+    #contact{
+        flex-direction: column;
+        height: 1000px;
+        width: 800px;
+        position: relative;
+        top: 550px;
+    }
+
+    .contactform , .contactlinks{
+        position: relative;
+        left: 100px;
+        top: -30px;
+    }
+    .contactform .form-group{
+        width: 500px;
+        height: 40px;
+    }
+
+    .contactlinks{
+        width: 500px;
+    }
+
+    .rightsection{
+        scale: 70%;
+        position: relative;
+        bottom: 200px;
+        padding: 0px 50px 50px 0px;
+    }
+    .leftsection{
+        width: 100%;
+        height: 800px;
+        position: relative;
+        bottom: 70px;
+
+    }
+
+    footer{
+        
+        height: 60px;
+        width: 100lvw;
+        position: relative;
+        bottom: 10%;
+        
+        left: 100px;
+        top: 450px;
+
+    }
+
+    footer div{
+        position: relative;    
+        left: 40px;
+    }
+}
