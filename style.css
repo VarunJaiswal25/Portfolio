@@ -11,7 +11,7 @@ head,body{
     background-color:rgb(68 73 148);
     color: white;
     font-family: "Poppins", sans-serif;   
-     overflow-x: hidden;
+    overflow-x: hidden;
 }
 
 
@@ -403,6 +403,8 @@ button:hover{
 .icon-img-pkt{
     height: 400px;
     width: 500px;
+    position: relative;
+    right: 70px;
     
 }
 
@@ -578,9 +580,9 @@ footer div{
     left: 450px;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     head,body{
-        /* background-color: aquamarine; */
+        /* background-color: aquamarine; 
     }
 
     
@@ -712,4 +714,12 @@ footer div{
         position: relative;    
         left: 40px;
     }
-}
+} */
+
+
+/* Default styles */
+
+/* Add your default CSS styles here */
+
+/* Responsive styles */
+
