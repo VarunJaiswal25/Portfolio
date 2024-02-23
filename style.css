@@ -311,7 +311,9 @@ button:hover{
     
 }
 .elem p{
-    font-size: small;
+    font-size: 10px;
+    height: 70px;
+    width: 250px;
 }
 
 .elem:hover{
