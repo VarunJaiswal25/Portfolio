@@ -88,7 +88,7 @@ ul li a::after{
     color:rgb(68 73 148);
     background-color: white;
 }
-.homepage{
+#homepage{
     height: 600px;
     width: 100lvw;
     display: flex;
@@ -582,12 +582,12 @@ footer div{
 
     
 
-    .homepage{
+    #homepage{
         flex-direction: column;
         height: 1000px;
     }
 
-    .homepage .rightsection{
+    #homepage .rightsection{
         position: relative;
         top: -0px;
         left: 80px;
